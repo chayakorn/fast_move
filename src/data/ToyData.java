@@ -16,14 +16,16 @@ public class ToyData {
     public static Person[] getPerson() {
         Person[] person = new Person[3];
         // your code
-
+        person[0] = new Person("Nuttida","Meeboon");
+        person[1] = new Person("Chayakorn","Ngamoranlerd");
+        person[2] = new Person("Narawich","Kampusa");
         return person;
     }
 
     public static Parcel[] getParcels() {
         Parcel[] parcels = new Parcel[10];
         // your code
-
+        
         return parcels;
     }
 
